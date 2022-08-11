@@ -56,15 +56,55 @@
 		B6C4A47E28A549680077DAA3 /* TestMail */ = {
 			isa = PBXGroup;
 			children = (
+				B6C4A49328A54E7A0077DAA3 /* Application */,
+				B6C4A49428A54EDB0077DAA3 /* Models */,
+				B6C4A49728A55BAB0077DAA3 /* Views */,
+				B6C4A49628A54EE90077DAA3 /* Controllers */,
+				B6C4A49828A55C150077DAA3 /* Resources */,
+				B6C4A48528A549680077DAA3 /* Main.storyboard */,
+			);
+			path = TestMail;
+			sourceTree = "<group>";
+		};
+		B6C4A49328A54E7A0077DAA3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				B6C4A47F28A549680077DAA3 /* AppDelegate.swift */,
 				B6C4A48128A549680077DAA3 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B6C4A49428A54EDB0077DAA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B6C4A49628A54EE90077DAA3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				B6C4A48328A549680077DAA3 /* ViewController.swift */,
-				B6C4A48528A549680077DAA3 /* Main.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B6C4A49728A55BAB0077DAA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6C4A49828A55C150077DAA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				B6C4A48828A5496B0077DAA3 /* Assets.xcassets */,
 				B6C4A48A28A5496B0077DAA3 /* LaunchScreen.storyboard */,
 				B6C4A48D28A5496B0077DAA3 /* Info.plist */,
 			);
-			path = TestMail;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RCLUGGB3X5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestMail/Info.plist;
+				INFOPLIST_FILE = TestMail/Resoursec/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RCLUGGB3X5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestMail/Info.plist;
+				INFOPLIST_FILE = TestMail/Resoursec/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
