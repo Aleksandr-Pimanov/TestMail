@@ -50,8 +50,10 @@ extension MailTextField: UITextFieldDelegate {
     }
 
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        guard let text = textField.text else { return true }
-        textFieldDelegate?.typingText(text: text)
+        if let text = textField.text, let rangeText = Range(range, in: text) {
+            let updatingText = text.replacingCharacters(in: rangeText, with: string)
+            textFieldDelegate?.typingText(text: updatingText)
+        }
         return true
     }
 

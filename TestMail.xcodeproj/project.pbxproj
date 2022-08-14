@@ -10,6 +10,8 @@
 		B6323CDE28A6D16A00E1C1AE /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6323CDD28A6D16A00E1C1AE /* VerificationButton.swift */; };
 		B6323CE028A6D48E00E1C1AE /* MailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6323CDF28A6D48E00E1C1AE /* MailCollectionView.swift */; };
 		B6323CE328A6D77F00E1C1AE /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6323CE228A6D77F00E1C1AE /* MailCollectionViewCell.swift */; };
+		B69BFD1B28A7D8BB00DDA9C1 /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69BFD1A28A7D8BB00DDA9C1 /* VerificationModel.swift */; };
+		B6A15F1F28A9202D00F7B43D /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A15F1E28A9202D00F7B43D /* String + Extensions.swift */; };
 		B6C4A48028A549680077DAA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C4A47F28A549680077DAA3 /* AppDelegate.swift */; };
 		B6C4A48228A549680077DAA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C4A48128A549680077DAA3 /* SceneDelegate.swift */; };
 		B6C4A48428A549680077DAA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C4A48328A549680077DAA3 /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 		B6323CDD28A6D16A00E1C1AE /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
 		B6323CDF28A6D48E00E1C1AE /* MailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionView.swift; sourceTree = "<group>"; };
 		B6323CE228A6D77F00E1C1AE /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
+		B69BFD1A28A7D8BB00DDA9C1 /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
+		B6A15F1E28A9202D00F7B43D /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
 		B6C4A47C28A549680077DAA3 /* TestMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C4A47F28A549680077DAA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6C4A48128A549680077DAA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 		B6C4A49428A54EDB0077DAA3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B69BFD1A28A7D8BB00DDA9C1 /* VerificationModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				B6C4A49F28A58F310077DAA3 /* UIKit */,
+				B6A15F1E28A9202D00F7B43D /* String + Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -232,10 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69BFD1B28A7D8BB00DDA9C1 /* VerificationModel.swift in Sources */,
 				B6C4A49C28A587710077DAA3 /* StatusLabel.swift in Sources */,
 				B6323CE328A6D77F00E1C1AE /* MailCollectionViewCell.swift in Sources */,
 				B6323CDE28A6D16A00E1C1AE /* VerificationButton.swift in Sources */,
 				B6C4A48428A549680077DAA3 /* ViewController.swift in Sources */,
+				B6A15F1F28A9202D00F7B43D /* String + Extensions.swift in Sources */,
 				B6C4A4A328A592320077DAA3 /* MailTextField.swift in Sources */,
 				B6C4A48028A549680077DAA3 /* AppDelegate.swift in Sources */,
 				B6323CE028A6D48E00E1C1AE /* MailCollectionView.swift in Sources */,
